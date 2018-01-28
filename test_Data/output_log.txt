@@ -1,0 +1,74 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+ I  iteidarl  z  einrginft
+ e si VnR 5.5.2 f 2 03423d f5B
+8f3)
+GfxDevice: creating device cBiegnntM;n Mahneagee=1 R
+eloadADirmbcl3y:
+    VePsiatfo  mDaisemctl3:  \1\0tslcvlli1e.1t]\ G iReHnbdnergemr-:a tMr\creotsDotf\ta aBea\snitcE gRnenddle(rh sDmeises aIg=0 i8c )ar
+ m lVensor)
+L oMidcnr o\socfitnt
+ \ GV\AMi:H b n w a e2m0s4e3\ eMtBDa
+ta\Managed\Unityegniine dMlointo Mnatn agiedr omelinad
+Assembly
+Platform assembly: \\tsclient\G\GitHub\newgamePmlsaet\feotrDmt \aassged\Ulyit y\Esnlgeit\eGd\lG(itiH uebs\gn eswhgralmse)-
+Loaatdi\negt D\t\\Mscnaieen\ts\em\bilHu-bShnerpg-mf-mratsaser.\lle (tIhniist imed\szn ietgysEenvainsi.del:l)
+L5n2tion 3U8ntidtlyi fn3tldG GDtoemicien:amrea-imgadsvtce c\tiens;tt_rDaaeda\1anaged\DPilraet-f3oh:m
+   a-serretmabnl.yllDii\e\ot3sn t1y1 .C0hiitlHeuD \1nie1w
+]g
+ a mPel-emfesrt:e eMmibclryo:s o\f\tt\sAcscs eRmebnltyH CDSnevwgp-(mie=smt8p)ar
+s se.sdtl_rD:ahtiai\mreossedfg
+e   ssehabMy:Clherps d 
+2 a(3t hMiBscmienssG\gG itsBbh\an eMeoasmM-LaagsitnRge lsotsdcsatan\bMGaGtHgeb\l\tAwosemm -smy-mClSeh\ r\-\itsspDssi.nd\lGa nnttgueUnniwtaym eC-hmihltdp.\DlomtaDitoaMUnnigeP lUaitdfEogrami nal
+ss(thPllya:s s\mg s cslehebnmt:\sG\\GLcolaideingga m\e\-tmsacsgtaer\\mtGetsHtu_bs\_Deat\aMMennmaegterdsseAtsbDyambnl\ta-SCcS\hpaitpyllll n(.tlhl smetmsensetiyg Chs mles soma
+lisns)\Lotscilg e\t\GtGstcli\Ieniti\lGz\e etnHPuebe\_vaeargaanmaee-lmA:5s\tmebr \i-eens\t\_iDrHitpa\dMlawnvacmte dmcarsteCmilnl s-o_Svia
+rae cdlale di\nAsss eUmnbdlt\y1 Cshpifire nora\n
+t.dil:P 
+l \ n eowrmr ei sine:m b tym:r _\D\a
+tt acil.ineanvts\c n\tGni\tgHGtb\.uUbe.admlrl- m(atsrtseorm\etsBsgta_ciasa nMea rravgre(dD\)A
+sosaemibnl S-\a\ntitc lSiceinitp\tG.\oGot h n s  wmgeasmsea led0 iDso mhaainmesnsg)dP
+UonBtefgyrnnsgcionem.tUGI:i l \Rteslctloi ansts\eGyb lCDtltd\ \nlaagtea
+dmAesPseatmtoermnti\t\temcilit .tdtGslg iienuto\mn\lGtyaCeSimaa Dtoelri\tt
+he-m aP_lDaettsat\e sntg_demslt:)\yMEanngaigneed.\dluiltyeEwn\gme meeaNHeutbw\onr_kgitmmel.ndaglteLtnaitssn_e snta.gsIc.dil lt\(rGm\le lsH-Caogae nsdmler tlnstle r\L\os ti_iglHd\ \Dsemwaeinme\-UmnPiltbytEfogrgme e-ltasimbala\:t nsitt_yD aCtng\GdatDaumbt\nnei
+wgiygEe-lianiet.\ IUdltlD  in\tlod  UDnAisiPnlh
+aill-dUlDiotmoarimn i
+tsssceP lnlyf:orimHtabslsiweglay\:  G\stmHcustsn)ewGoiatdebnmga s\aemre\liaesntye-rCGSihtaHrupa-\aUrnaingaagEendg\iUnnei.taygEes i_nDea.tNae\tMweonrak)inLgo.addliln g( t\h\itas cmleessssa)gi
+ioiaodhUanremwlgeasml)emLomGdeGigt
+ \sb\s_leaefgrt \sGe\mGslet\HeutbD\tnseewlgeadm\et-nmpa-sfEierrs\ttpeassPs_.Ddaltla \iMnateod \UUnniittyy ECrh.idlndl  DioImtaoilUniittyi  Ceasill oo iD ianmeiem
+bP
+Ll:aPtlf\otrsmc lsseenbmyt G\G \\itHHctl\nneewtg\amnewGimaetemrsnteesr\amDs-tmaa\sa\naggde\dU\tUtDiEtnal\yM-e.nPalg.eddl\lB y(ttehsHnerlypeCshdhle D m(i 
+hsasg el )sLa mhdainmglheas\st)ssLlaiLnoga \i\tsuc\Ge\gemHsm\l\iGewngtaemnee-wmgaasttaesrt\etne\stedtsattaDaettbal\yn-aCgSehdayrEintgyilnneg.iNneoo.oPnligtmyo dCetTdl t sDRosmsagn- 
+ i nhtaomfdoetms as
+hdialbd   1\a5\.2sliieectP\GG\
+tGfiouru\\aewwsaeemmmast e\\\ttss_calaitMaa\GagaGei\UAHiutbly-ggnnmteN-emwottkelr Ptestl_ eam ao eUamnbalgCe el\sBDyo
+Leesdn\l
+g\eiPt.Hautb o(mt haissemmbnewsrs\aee-stise nhtt\Mal\sGst)a\LMsdtienmg. A\sratmsbclte U(_t\yGs\GipsHaaglnl  gnn thoa rUmnre\tyeasm
+t_lDeaetsai\nMaentafgoerdmt BaystseegsHleyl:p r:r lelis ntLtG\ntnnGtuGi\htsldgainemwmaa\Gi-mHausspeleewtteda _mgleoeard\,t eisa g_eDa.tUnesM ysaeecno\n nsaydlleg s)t.
+Pil aeysmgo dsehTrmstessR
+Lnoerd.ngl  i\nstloe tUdneistkt\oCpi:l d1 9D2o0mxa1i0n80 3aaPnlramt faolrsme Ean0gxi\n\0y :a t\ \0t,i0tHnebI\ nGetwt aCleib\a Dtwegi\nt.m_
+DPIeap\foamta.gsetda\bSty f\o\utCscytT.rnyli p(GtXIisl u(ntsw1as m.e-lsahierml\eshs.)mle
+s<R)
+L oPplea if \tris lisine.
+Gt:G t\i\g.\nlc lgiieenmtstaGe\ieisttH_ubs\tn
+eMwagaangde\BtmcaesHteeGp\ettedsbtn_nDga t-ai\sM arn\ateeod_\aS
+y-sataempd.ednldlr n(gtdhe sN  m1e0sis4g3d sle chtaormlnetys)Cild Domain
+Platform assembly: \\tscldens\k\tioHu:b1\20ew10am0 -3a2tHrzte st_tDPla:\ M1m a2e0sxmnb8t0y \a\tt .Pl,e0y\<d\IGe tIRuitniweal.ez-nm aisptt.smesXI_netuitM1h_a3m.ddSlsl
+ emadCtr .floltn(dt.e sT\r\ysianug  nsenhaauetm9s_se)_
+0t.sd_lala\PMltneaagm. .a.iem<bRyIe>\ lIsncpleiTeenstt\iGz\eed..dlewinamo -mnister \tilst DDotm\aaiage
+d\SysPematdflo(tmhaissm lm:e\ssscgl iest h\airHule\ns)wg
+ame-master\test_Data\Managed\BytesHelpere.kdlp: (1t20xs 08es 3agez;isvihrrtlussl:
+Lo9a0d10ng  a\tsc0l0
+<ntI>G GItnubt\aliwginmg-minstutr\
+eXtInpuatM1na3gdld\ Bott sHounpe. .Tlr ynionUg tX Inplu tom_1_n
+.-l  Cnsmpladte.. r
+eRIoa dnp in i103ti2a2lsezeon.d
+s
+Platform assembly: \\tsclient\G\GitHub\newgame-master\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: \\tsclient\G\GitHub\newgame-master\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 32Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
