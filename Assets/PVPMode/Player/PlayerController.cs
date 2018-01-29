@@ -237,9 +237,12 @@ public class PlayerController : MonoBehaviour {
             {
                 gameObject.transform.rotation = quat;
             }
-            //gameObject.transform.position += dir * m_CombatProps.m_MoveSpeed * Time.deltaTime;
             m_Rigidbody.velocity = new Vector3(m_CombatProps.m_MoveSpeed * dir.x, m_Rigidbody.velocity.y, m_CombatProps.m_MoveSpeed * dir.z);
             return true;
+        }
+        else
+        {
+            m_Rigidbody.velocity = new Vector3(0, m_Rigidbody.velocity.y, 0);
         }
         return false;
     }
