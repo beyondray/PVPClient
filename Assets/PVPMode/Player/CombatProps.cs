@@ -285,7 +285,6 @@ public class CombatProps : MonoBehaviour
 
     public bool teleportBeg(float speed, float needMP)
     {
-        if (isInFrozenDBuff) return false;
         if (m_MP < needMP) return false;
 
         if (!Globe.netMode)
