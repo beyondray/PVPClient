@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
 public class MainNetEvent : MonoBehaviour
 {    
-    public GameObject playerPrefab;
     private Camera ctrlCamera;
     private static int skillCount = 4;
     private Transform[] skillArr = new Transform[skillCount + 1];
@@ -102,7 +101,7 @@ public class MainNetEvent : MonoBehaviour
                     break;
 
                 case 2:
-                    _e = obj.GetComponent<Ashe>();
+                    _e = obj.GetComponent<Ali>();
                     break;
             }
         }
@@ -119,7 +118,8 @@ public class MainNetEvent : MonoBehaviour
             y = 1.3f;
 
         Vector3 pos = new Vector3(entity.position.x, y, entity.position.z);
-        GameObject player = Instantiate(playerPrefab, pos, entity.rotation) as GameObject;
+        GameObject hero = Resources.Load("Prefabs/Heros/" + entity.role_name) as GameObject;
+        GameObject player = Instantiate(hero, pos, entity.rotation) as GameObject;
         entity.renderObj = player;
 
         //set init props

@@ -19,6 +19,7 @@ public class Ashe : PlayerController
     //skill atk
     protected float skill_1_atk = 300f;
     protected float skill_2_atk = 200f;
+    protected float skill_3_speed = 10f;
     protected float skill_4_addhp = 250f;
 
     protected override bool UpdateTransAniState()
@@ -69,7 +70,7 @@ public class Ashe : PlayerController
         {
             if (m_CombatProps.isPhysPowerEnough(skill_3_Phy))
             {
-                m_CombatProps.speedUp(10f, skill_3_Phy);
+                m_CombatProps.speedUp(skill_3_speed, skill_3_Phy);
             }
         }
 

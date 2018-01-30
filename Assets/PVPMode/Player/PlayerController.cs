@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour {
     //role props
     protected Rigidbody m_Rigidbody;
     protected CombatProps m_CombatProps;
+    protected float h, v;
     public Vector2 m_MoveDir = Vector2.zero;
     protected bool bHasReqRelive = false;
 
@@ -77,20 +78,16 @@ public class PlayerController : MonoBehaviour {
         bDie = m_CombatProps.isDie();
     }
 
-    private void UpdateMoveState()
+    private void getMoveInput(ref float h, ref float v)
     {
-        if (bDie) return;
-        if (m_CombatProps.isSleep()) return;
-        if (!isLocalPlayer) return;
-
 #if MOBILE_INPUT
         CrossPlatformInputManager.VirtualAxis virX = CrossPlatformInputManager.VirtualAxisReference("Virtual_X");
         CrossPlatformInputManager.VirtualAxis virY = CrossPlatformInputManager.VirtualAxisReference("Virtual_Y");
-        float h = virX.GetValue;
-        float v = virY.GetValue;
+        h = virX.GetValue;
+        v = virY.GetValue;
 #else
-        float h = CrossPlatformInputManager.GetAxis("Horizontal");
-        float v = CrossPlatformInputManager.GetAxis("Vertical");
+        h = CrossPlatformInputManager.GetAxis("Horizontal");
+        v = CrossPlatformInputManager.GetAxis("Vertical");
 
         if (Globe.virtualButton)
         {
@@ -103,8 +100,26 @@ public class PlayerController : MonoBehaviour {
             }
         }
 #endif
+    }
+
+    private void UpdateMoveState()
+    {
+        if (bDie) return;
+        if (m_CombatProps.isSleep()) return;
+        if (!isLocalPlayer) return;
+
+        //Move(Mess or Normal)
+        if (m_CombatProps.isMess())
+        {
+            m_CombatProps.MessRun(ref h, ref v);
+        }
+        else
+        {
+            getMoveInput(ref h, ref v);
+        }
         m_MoveDir = new Vector2(h, v);
 
+        //run state
         if (h == 0 && v == 0)
         {
             bRun = false;
@@ -118,6 +133,7 @@ public class PlayerController : MonoBehaviour {
     protected virtual bool UpdateAttackState()
     {
         if (m_CombatProps.isSleep()) return false;
+        if (m_CombatProps.isMess()) return false;
         if (!isLocalPlayer) return false;
 
         InputTest();
@@ -151,6 +167,11 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.V))
         {
             m_CombatProps.addDamage(AttackType.Frozen, 500);
+        }
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            if(!m_CombatProps.isMess())
+                m_CombatProps.inMessDBuff();
         }
     }
 
@@ -270,7 +291,7 @@ public class PlayerController : MonoBehaviour {
     // Desc: try show performance,
     //       and return the result.
     //=====================================
-    private bool CheckAttack()
+    protected virtual bool CheckAttack()
     {
         bool bAtck = iAtk != 0;
         if(bAtck)
@@ -324,7 +345,7 @@ public class PlayerController : MonoBehaviour {
         Vector3 _vXOZ = new Vector3(Mathf.Cos(_fAngle), -1.0f, Mathf.Sin(_fAngle));
         _vXOZ.y = -1.0f;
 
-        Vector3 _pos = gameObject.transform.position - 7.0f * _vXOZ;
+        Vector3 _pos = gameObject.transform.position - 6.0f * _vXOZ;
         m_Cam.transform.position = _pos;
         m_Cam.transform.LookAt(gameObject.transform);
     }

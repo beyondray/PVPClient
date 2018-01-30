@@ -98,6 +98,22 @@ public class ArrowNetEvent : MonoBehaviour
         }
     }
 
+    Transform getShotTrans(GameObject master)
+    {
+        Transform shotPoint = master.transform;
+        KBEngine.Role role = (KBEngine.Role)master.GetComponent<SyncPosRot>().entity;
+        switch (role.career)
+        {
+            case 1:
+                shotPoint = master.GetComponent<Ashe>().shotTrans;
+                break;
+            case 2:
+                shotPoint = master.GetComponent<Ali>().shotTrans;
+                break;
+        }
+        return shotPoint;
+    }
+
     void waitShot()
     {
         //iter for shot
@@ -129,6 +145,7 @@ public class ArrowNetEvent : MonoBehaviour
 
                     case AttackType.Normal:
                     case AttackType.Strong:
+                    case AttackType.Shadow:
                         parallelCount = 1;
                         break;
                 }
@@ -145,8 +162,7 @@ public class ArrowNetEvent : MonoBehaviour
                     if (arrow.GetComponent<SyncPosRot>().isLocalPlayer)
                     {
                         master = arrow.GetComponent<Arrow>().master;
-                        Transform shotPoint = master.GetComponent<Ashe>().shotTrans;
-                        arrow.transform.position = shotPoint.transform.position;
+                        arrow.transform.position = getShotTrans(master).position;
                         float delta = 15f;
                         float yAngle = (int)((i + 1) / 2) * (i % 2 == 0 ? delta : -delta);
                         arrow.transform.Rotate(0, yAngle, 0);

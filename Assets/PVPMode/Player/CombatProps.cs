@@ -13,6 +13,7 @@ public enum AttackType
     Normal = 0,
     Frozen = 1,
     Strong = 2,
+    Shadow = 3,
 }
 
 public enum ReliefType
@@ -20,10 +21,13 @@ public enum ReliefType
     Frozen = 0,
     SpeedUp = 1,
     Sleep = 2,
+    Mess = 3,
 }
 
 public class CombatProps : MonoBehaviour
 {
+    public GameObject[] matRenderList;
+
     //props
     public float m_MoveSpeed = 7f;
 
@@ -33,18 +37,24 @@ public class CombatProps : MonoBehaviour
 
     public float m_MaxMP = 1000;
     public float m_MP = 1000;
-    public float m_MPAddSpeed = 10;
+    public float m_MPAddSpeed = 100;
 
     public float m_MaxPhysPower = 1000;
     public float m_PhysPower = 1000;
-    public float m_PhyAddSpeed = 100;
+    public float m_PhyAddSpeed = 30;
 
     //DBuff
     public bool isInFrozenDBuff = false;
     public bool isInSleepDBuff = false;
-
+    public bool isInMessDBuff = false;
+    
     //Buff
     public bool isInSpeedUpBuff = false;
+
+    //Mess
+    protected float m_MessTime = 3f;
+    protected float m_MessAccumTime = 0f;
+    protected int m_MessRunCount = 0;
 
     // Use this for initialization
     void Start()
@@ -84,22 +94,43 @@ public class CombatProps : MonoBehaviour
         }
         return curV;
     }
+    string getHeroName()
+    {
+        string name = "";
+        KBEngine.Role player = (KBEngine.Role)gameObject.GetComponent<SyncPosRot>().entity;
+        if (player != null) name = player.role_name;
+        return name;
+    }
 
     public void inFrozenDBuff()
     {
         isInFrozenDBuff = true;
         isInSpeedUpBuff = false;
-        Transform ashe = gameObject.transform.Find("transformAshe");
-        Material frozenMat = Resources.Load<Material>("Materials/Frozen");
-        ashe.gameObject.GetComponent<Renderer>().material = frozenMat;
+
+        //set frozen mat
+        Material frozenMat = Resources.Load<Material>("Materials/Frozen_"+ getHeroName());
+        for (int i = 0; i < matRenderList.Length; i++)
+        {
+            matRenderList[i].GetComponent<Renderer>().material = frozenMat;            
+        }
         Invoke("outFrozenDBuff", 5f);
     }
 
     public void outFrozenDBuff()
     {
-        Transform ashe = gameObject.transform.Find("transformAshe");
-        Material frozenMat = Resources.Load<Material>("Materials/ashe");
-        ashe.gameObject.GetComponent<Renderer>().material = frozenMat;
+        //set init mat
+        Material orgMat = Resources.Load<Material>("Materials/" + getHeroName());
+        for (int i = 0; i < matRenderList.Length; i++)
+        {
+            matRenderList[i].GetComponent<Renderer>().material = orgMat;
+        }
+
+        //TODO: ali头发暂时做特殊处理
+        if(getHeroName() == "ali")
+        {
+            Material mat_hair = Resources.Load<Material>("Materials/ali_hair");
+            matRenderList[matRenderList.Length - 1].GetComponent<Renderer>().material = mat_hair;
+        }
         isInFrozenDBuff = false;
     }
 
@@ -112,6 +143,19 @@ public class CombatProps : MonoBehaviour
     public void outSleepDBuff()
     {
         isInSleepDBuff = false;
+    }
+
+    public void inMessDBuff()
+    {
+        isInMessDBuff = true;
+        Invoke("outMessDBuff", m_MessTime);
+    }
+
+    public void outMessDBuff()
+    {
+        isInMessDBuff = false;
+        m_MessAccumTime = 0f;
+        m_MessRunCount = 0;
     }
 
     public void inSpeedUpBuff()
@@ -193,6 +237,11 @@ public class CombatProps : MonoBehaviour
         return isInSleepDBuff;
     }
 
+    public bool isMess()
+    {
+        return isInMessDBuff;
+    }
+
     public void useMP(float value)
     {
         if (m_MP < value) return;
@@ -221,7 +270,6 @@ public class CombatProps : MonoBehaviour
         if (isInFrozenDBuff) return;
         if (isInSpeedUpBuff) return;
         if (m_PhysPower < needPhy) return;
-        //if (speed <= m_MoveSpeed) return;
 
         if (!Globe.netMode)
         {
@@ -232,6 +280,55 @@ public class CombatProps : MonoBehaviour
         {
             //req speedUp
             safeNetCall("reqSpeedUp", new object[] { speed, needPhy });
+        }
+    }
+
+    public bool teleportBeg(float speed, float needMP)
+    {
+        if (isInFrozenDBuff) return false;
+        if (m_MP < needMP) return false;
+
+        if (!Globe.netMode)
+        {
+            m_MP -= needMP;
+            m_MoveSpeed = speed;
+        }
+        else
+        {
+            //req speedUp
+            safeNetCall("reqTeleportBeg", new object[] { speed, needMP });
+        }
+        return true;
+    }
+
+    public void teleportEnd()
+    {
+        if(!Globe.netMode)
+        {
+            m_MoveSpeed = 7f;
+        }
+        else
+        {
+            safeNetCall("reqTeleportEnd");
+        }
+    }
+
+    public void MessRun(ref float h, ref float v)
+    {
+        if (isMess())
+        {
+            m_MessAccumTime += Time.deltaTime;
+            if (m_MessAccumTime >= m_MessRunCount * 0.5f)
+            {
+                h = 0f;
+                v = 0f;
+                while (h == 0f && v == 0f)
+                {
+                    h = (float)Random.Range(-1, 2);
+                    v = (float)Random.Range(-1, 2);
+                }
+                m_MessRunCount++;
+            }
         }
     }
 }

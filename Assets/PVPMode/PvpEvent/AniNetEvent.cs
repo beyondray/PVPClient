@@ -35,7 +35,7 @@ public class AniNetEvent : MonoBehaviour
                     break;
 
                 case 2:
-                    _e = obj.GetComponent<Ashe>();
+                    _e = obj.GetComponent<Ali>();
                     break;
             }
 

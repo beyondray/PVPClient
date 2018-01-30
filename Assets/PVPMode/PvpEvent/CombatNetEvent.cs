@@ -12,6 +12,8 @@ public class CombatNetEvent : MonoBehaviour
     public GameObject speedUpEffect;
     public GameObject sleepEffect;
     public GameObject dieEffect;
+    public GameObject teleportEffect;
+    public GameObject messEffect;
 
     // Use this for initialization
     void Start()
@@ -35,6 +37,7 @@ public class CombatNetEvent : MonoBehaviour
         KBEngine.Event.registerOut("recSpeedUp", this, "recSpeedUp");
         KBEngine.Event.registerOut("recRelief", this, "recRelief");
         KBEngine.Event.registerOut("recRelive", this, "recRelive");
+        KBEngine.Event.registerOut("recTeleport", this, "recTeleport");
     }
 
     //=================================================================
@@ -170,6 +173,13 @@ public class CombatNetEvent : MonoBehaviour
                     cp.inSleepDBuff();
                 }
                 break;
+            case AttackType.Shadow:
+                if(!cp.isMess())
+                {
+                    Instantiate(messEffect, player.transform.position, player.transform.rotation, player.transform);
+                    cp.inMessDBuff();
+                }
+                break;
         }
 
     }
@@ -223,6 +233,9 @@ public class CombatNetEvent : MonoBehaviour
             case ReliefType.Sleep:
                 cp.outSleepDBuff();
                 break;
+            case ReliefType.Mess:
+                cp.outMessDBuff();
+                break;
         }
     }
 
@@ -239,7 +252,7 @@ public class CombatNetEvent : MonoBehaviour
                 dieTrans = ashe.hipTrans;
                 break;
             case 2:
-                Ashe ali = player.GetComponent<Ashe>();
+                Ali ali = player.GetComponent<Ali>();
                 dieTrans = ali.hipTrans;
                 break;
         }
@@ -247,4 +260,13 @@ public class CombatNetEvent : MonoBehaviour
 
     }
 
+    public void recTeleport(KBEngine.Role e)
+    {
+        if (e.isPlayer()) return;
+
+        if (e.renderObj == null) return;
+        GameObject player = e.renderObj as GameObject;
+
+        Instantiate(teleportEffect, player.transform.position, player.transform.rotation, player.transform);
+    }
 }

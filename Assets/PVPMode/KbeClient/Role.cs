@@ -136,5 +136,9 @@ namespace KBEngine
             Event.fireOut("recRelive", new object[] { this, position });
         }
 
+        public virtual void recTeleport()
+        {
+            Event.fireOut("recTeleport", new object[] { this });
+        }
     }
 }

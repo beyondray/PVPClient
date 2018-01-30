@@ -1,0 +1,2516 @@
+fileFormatVersion: 2
+guid: 69c8326fc0eb7e848a1f13de0d5b8a1f
+timeCreated: 1517215559
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curve1
+    100002: curve10
+    100004: curve11
+    100006: curve2
+    100008: curve3
+    100010: curve4
+    100012: curve5
+    100014: curve6
+    100016: curve7
+    100018: curve8
+    100020: curve9
+    100022: Hair
+    100024: hair
+    100026: hair1
+    100028: HairBack1
+    100030: HairBack2
+    100032: HairBack3
+    100034: HairBack4
+    100036: HairCenter1
+    100038: HairCenter2
+    100040: HairLeft1_1
+    100042: HairLeft1_2
+    100044: HairLeft2_1
+    100046: HairLeft2_2
+    100048: HairLeft2_3
+    100050: HairLeft2_4
+    100052: HairLeft3_1
+    100054: HairLeft3_2
+    100056: HairLeft3_3
+    100058: HairLeft4_1
+    100060: HairLeft4_2
+    100062: HairLeft4_3
+    100064: HairLeft4_4
+    100066: HairRight1_1
+    100068: HairRight1_2
+    100070: HairRight2_1
+    100072: HairRight2_2
+    100074: HairRight2_3
+    100076: HairRight2_4
+    100078: HairRight3_1
+    100080: HairRight3_2
+    100082: HairRight3_3
+    100084: HairRight3_4
+    100086: joint2
+    100088: joint3
+    100090: LeftChest
+    100092: LeftElbow
+    100094: LeftFinger1_1
+    100096: LeftFinger1_2
+    100098: LeftFinger1_3
+    100100: LeftFinger2_1
+    100102: LeftFinger2_2
+    100104: LeftFinger2_3
+    100106: LeftFinger2_4
+    100108: LeftFinger3_1
+    100110: LeftFinger3_2
+    100112: LeftFinger3_3
+    100114: LeftFinger3_4
+    100116: LeftFinger4_1
+    100118: LeftFinger4_2
+    100120: LeftFinger4_3
+    100122: LeftFinger4_4
+    100124: LeftFinger5_1
+    100126: LeftFinger5_2
+    100128: LeftFinger5_3
+    100130: LeftFinger5_4
+    100132: LeftFoot
+    100134: LeftHand
+    100136: LeftHip
+    100138: LeftKnee
+    100140: LeftScarf1
+    100142: LeftScarf2
+    100144: LeftScarf3
+    100146: LeftScarf4
+    100148: LeftShoulder
+    100150: LeftToe
+    100152: LeftToe 1
+    100154: LeftToe3
+    100156: Neck
+    100158: polySurface1
+    100160: polySurface1 1
+    100162: polySurface10
+    100164: polySurface100
+    100166: polySurface101
+    100168: polySurface102
+    100170: polySurface103
+    100172: polySurface104
+    100174: polySurface105
+    100176: polySurface106
+    100178: polySurface107
+    100180: polySurface108
+    100182: polySurface109
+    100184: polySurface11
+    100186: polySurface110
+    100188: polySurface111
+    100190: polySurface112
+    100192: polySurface113
+    100194: polySurface114
+    100196: polySurface115
+    100198: polySurface116
+    100200: polySurface117
+    100202: polySurface118
+    100204: polySurface119
+    100206: polySurface12
+    100208: polySurface120
+    100210: polySurface121
+    100212: polySurface122
+    100214: polySurface123
+    100216: polySurface124
+    100218: polySurface125
+    100220: polySurface126
+    100222: polySurface127
+    100224: polySurface128
+    100226: polySurface129
+    100228: polySurface13
+    100230: polySurface130
+    100232: polySurface131
+    100234: polySurface132
+    100236: polySurface133
+    100238: polySurface134
+    100240: polySurface135
+    100242: polySurface136
+    100244: polySurface137
+    100246: polySurface138
+    100248: polySurface139
+    100250: polySurface14
+    100252: polySurface140
+    100254: polySurface141
+    100256: polySurface142
+    100258: polySurface143
+    100260: polySurface144
+    100262: polySurface145
+    100264: polySurface146
+    100266: polySurface147
+    100268: polySurface148
+    100270: polySurface149
+    100272: polySurface15
+    100274: polySurface150
+    100276: polySurface151
+    100278: polySurface152
+    100280: polySurface153
+    100282: polySurface154
+    100284: polySurface155
+    100286: polySurface156
+    100288: polySurface157
+    100290: polySurface158
+    100292: polySurface159
+    100294: polySurface16
+    100296: polySurface160
+    100298: polySurface161
+    100300: polySurface162
+    100302: polySurface163
+    100304: polySurface164
+    100306: polySurface165
+    100308: polySurface166
+    100310: polySurface167
+    100312: polySurface168
+    100314: polySurface169
+    100316: polySurface17
+    100318: polySurface170
+    100320: polySurface170 1
+    100322: polySurface171
+    100324: polySurface172
+    100326: polySurface173
+    100328: polySurface174
+    100330: polySurface175
+    100332: polySurface176
+    100334: polySurface177
+    100336: polySurface178
+    100338: polySurface179
+    100340: polySurface18
+    100342: polySurface180
+    100344: polySurface181
+    100346: polySurface182
+    100348: polySurface183
+    100350: polySurface184
+    100352: polySurface185
+    100354: polySurface186
+    100356: polySurface187
+    100358: polySurface188
+    100360: polySurface189
+    100362: polySurface19
+    100364: polySurface190
+    100366: polySurface191
+    100368: polySurface192
+    100370: polySurface193
+    100372: polySurface194
+    100374: polySurface195
+    100376: polySurface196
+    100378: polySurface197
+    100380: polySurface198
+    100382: polySurface199
+    100384: polySurface2
+    100386: polySurface20
+    100388: polySurface200
+    100390: polySurface201
+    100392: polySurface202
+    100394: polySurface203
+    100396: polySurface204
+    100398: polySurface205
+    100400: polySurface206
+    100402: polySurface207
+    100404: polySurface208
+    100406: polySurface209
+    100408: polySurface21
+    100410: polySurface210
+    100412: polySurface211
+    100414: polySurface212
+    100416: polySurface213
+    100418: polySurface214
+    100420: polySurface215
+    100422: polySurface216
+    100424: polySurface217
+    100426: polySurface218
+    100428: polySurface219
+    100430: polySurface22
+    100432: polySurface220
+    100434: polySurface221
+    100436: polySurface222
+    100438: polySurface223
+    100440: polySurface224
+    100442: polySurface225
+    100444: polySurface226
+    100446: polySurface227
+    100448: polySurface228
+    100450: polySurface229
+    100452: polySurface23
+    100454: polySurface230
+    100456: polySurface230 1
+    100458: polySurface231
+    100460: polySurface232
+    100462: polySurface233
+    100464: polySurface234
+    100466: polySurface235
+    100468: polySurface236
+    100470: polySurface237
+    100472: polySurface238
+    100474: polySurface24
+    100476: polySurface25
+    100478: polySurface26
+    100480: polySurface27
+    100482: polySurface28
+    100484: polySurface29
+    100486: polySurface3
+    100488: polySurface30
+    100490: polySurface31
+    100492: polySurface32
+    100494: polySurface33
+    100496: polySurface34
+    100498: polySurface35
+    100500: polySurface36
+    100502: polySurface37
+    100504: polySurface38
+    100506: polySurface39
+    100508: polySurface4
+    100510: polySurface40
+    100512: polySurface41
+    100514: polySurface42
+    100516: polySurface43
+    100518: polySurface44
+    100520: polySurface45
+    100522: polySurface46
+    100524: polySurface47
+    100526: polySurface48
+    100528: polySurface49
+    100530: polySurface5
+    100532: polySurface50
+    100534: polySurface51
+    100536: polySurface52
+    100538: polySurface53
+    100540: polySurface54
+    100542: polySurface55
+    100544: polySurface56
+    100546: polySurface57
+    100548: polySurface58
+    100550: polySurface59
+    100552: polySurface6
+    100554: polySurface60
+    100556: polySurface61
+    100558: polySurface62
+    100560: polySurface63
+    100562: polySurface64
+    100564: polySurface65
+    100566: polySurface66
+    100568: polySurface67
+    100570: polySurface68
+    100572: polySurface69
+    100574: polySurface7
+    100576: polySurface70
+    100578: polySurface71
+    100580: polySurface72
+    100582: polySurface73
+    100584: polySurface74
+    100586: polySurface75
+    100588: polySurface76
+    100590: polySurface77
+    100592: polySurface78
+    100594: polySurface79
+    100596: polySurface8
+    100598: polySurface80
+    100600: polySurface81
+    100602: polySurface82
+    100604: polySurface83
+    100606: polySurface84
+    100608: polySurface85
+    100610: polySurface86
+    100612: polySurface87
+    100614: polySurface88
+    100616: polySurface89
+    100618: polySurface9
+    100620: polySurface90
+    100622: polySurface91
+    100624: polySurface92
+    100626: polySurface93
+    100628: polySurface94
+    100630: polySurface95
+    100632: polySurface96
+    100634: polySurface97
+    100636: polySurface98
+    100638: polySurface99
+    100640: pPipe2
+    100642: RightChest
+    100644: RightElbow
+    100646: RightFinger1_1
+    100648: RightFinger1_2
+    100650: RightFinger1_3
+    100652: RightFinger2_1
+    100654: RightFinger2_2
+    100656: RightFinger2_3
+    100658: RightFinger2_4
+    100660: RightFinger3_1
+    100662: RightFinger3_2
+    100664: RightFinger3_3
+    100666: RightFinger3_4
+    100668: RightFinger4_1
+    100670: RightFinger4_2
+    100672: RightFinger4_3
+    100674: RightFinger4_4
+    100676: RightFinger5_1
+    100678: RightFinger5_2
+    100680: RightFinger5_3
+    100682: RightFinger5_4
+    100684: RightFoot
+    100686: RightHand
+    100688: RightHip
+    100690: RightKnee
+    100692: RightScarf1
+    100694: RightScarf2
+    100696: RightScarf3
+    100698: RightScarf3 1
+    100700: RightShoulder
+    100702: RightToe
+    100704: RightToe 1
+    100706: RightToe1
+    100708: Root
+    100710: Scarf
+    100712: Spine1
+    100714: Spine2
+    100716: Spine3
+    100718: transform1
+    100720: transform10
+    100722: transform100
+    100724: transform101
+    100726: transform102
+    100728: transform103
+    100730: transform104
+    100732: transform105
+    100734: transform106
+    100736: transform107
+    100738: transform108
+    100740: transform109
+    100742: transform11
+    100744: transform110
+    100746: transform111
+    100748: transform112
+    100750: transform113
+    100752: transform114
+    100754: transform115
+    100756: transform116
+    100758: transform117
+    100760: transform118
+    100762: transform119
+    100764: transform12
+    100766: transform120
+    100768: transform121
+    100770: transform122
+    100772: transform123
+    100774: transform124
+    100776: transform125
+    100778: transform126
+    100780: transform127
+    100782: transform128
+    100784: transform129
+    100786: transform13
+    100788: transform130
+    100790: transform131
+    100792: transform132
+    100794: transform133
+    100796: transform134
+    100798: transform135
+    100800: transform136
+    100802: transform137
+    100804: transform138
+    100806: transform139
+    100808: transform14
+    100810: transform140
+    100812: transform141
+    100814: transform142
+    100816: transform143
+    100818: transform144
+    100820: transform145
+    100822: transform146
+    100824: transform147
+    100826: transform148
+    100828: transform149
+    100830: transform15
+    100832: transform150
+    100834: transform151
+    100836: transform152
+    100838: transform153
+    100840: transform154
+    100842: transform155
+    100844: transform156
+    100846: transform157
+    100848: transform158
+    100850: transform159
+    100852: transform16
+    100854: transform160
+    100856: transform161
+    100858: transform162
+    100860: transform163
+    100862: transform164
+    100864: transform165
+    100866: transform166
+    100868: transform167
+    100870: transform168
+    100872: transform169
+    100874: transform17
+    100876: transform170
+    100878: transform171
+    100880: transform172
+    100882: transform173
+    100884: transform174
+    100886: transform175
+    100888: transform176
+    100890: transform177
+    100892: transform178
+    100894: transform179
+    100896: transform18
+    100898: transform180
+    100900: transform181
+    100902: transform182
+    100904: transform183
+    100906: transform184
+    100908: transform185
+    100910: transform186
+    100912: transform187
+    100914: transform188
+    100916: transform189
+    100918: transform19
+    100920: transform190
+    100922: transform191
+    100924: transform192
+    100926: transform193
+    100928: transform194
+    100930: transform195
+    100932: transform196
+    100934: transform197
+    100936: transform198
+    100938: transform199
+    100940: transform2
+    100942: transform20
+    100944: transform200
+    100946: transform201
+    100948: transform202
+    100950: transform203
+    100952: transform204
+    100954: transform205
+    100956: transform206
+    100958: transform207
+    100960: transform208
+    100962: transform209
+    100964: transform21
+    100966: transform210
+    100968: transform211
+    100970: transform212
+    100972: transform213
+    100974: transform214
+    100976: transform215
+    100978: transform216
+    100980: transform217
+    100982: transform218
+    100984: transform219
+    100986: transform22
+    100988: transform220
+    100990: transform221
+    100992: transform222
+    100994: transform223
+    100996: transform224
+    100998: transform225
+    101000: transform226
+    101002: transform227
+    101004: transform228
+    101006: transform229
+    101008: transform23
+    101010: transform230
+    101012: transform231
+    101014: transform232
+    101016: transform233
+    101018: transform234
+    101020: transform235
+    101022: transform236
+    101024: transform237
+    101026: transform238
+    101028: transform239
+    101030: transform24
+    101032: transform240
+    101034: transform241
+    101036: transform25
+    101038: transform26
+    101040: transform27
+    101042: transform28
+    101044: transform29
+    101046: transform3
+    101048: transform30
+    101050: transform31
+    101052: transform32
+    101054: transform33
+    101056: transform34
+    101058: transform35
+    101060: transform36
+    101062: transform37
+    101064: transform38
+    101066: transform39
+    101068: transform4
+    101070: transform40
+    101072: transform41
+    101074: transform42
+    101076: transform43
+    101078: transform44
+    101080: transform45
+    101082: transform46
+    101084: transform47
+    101086: transform48
+    101088: transform49
+    101090: transform5
+    101092: transform50
+    101094: transform51
+    101096: transform52
+    101098: transform53
+    101100: transform54
+    101102: transform55
+    101104: transform56
+    101106: transform57
+    101108: transform58
+    101110: transform59
+    101112: transform6
+    101114: transform60
+    101116: transform61
+    101118: transform62
+    101120: transform63
+    101122: transform64
+    101124: transform65
+    101126: transform66
+    101128: transform67
+    101130: transform68
+    101132: transform69
+    101134: transform7
+    101136: transform70
+    101138: transform71
+    101140: transform72
+    101142: transform73
+    101144: transform74
+    101146: transform75
+    101148: transform76
+    101150: transform77
+    101152: transform78
+    101154: transform79
+    101156: transform8
+    101158: transform80
+    101160: transform81
+    101162: transform82
+    101164: transform83
+    101166: transform84
+    101168: transform85
+    101170: transform86
+    101172: transform87
+    101174: transform88
+    101176: transform89
+    101178: transform9
+    101180: transform90
+    101182: transform91
+    101184: transform92
+    101186: transform93
+    101188: transform94
+    101190: transform95
+    101192: transform96
+    101194: transform97
+    101196: transform98
+    101198: transform99
+    101200: //RootNode
+    400000: curve1
+    400002: curve10
+    400004: curve11
+    400006: curve2
+    400008: curve3
+    400010: curve4
+    400012: curve5
+    400014: curve6
+    400016: curve7
+    400018: curve8
+    400020: curve9
+    400022: Hair
+    400024: hair
+    400026: hair1
+    400028: HairBack1
+    400030: HairBack2
+    400032: HairBack3
+    400034: HairBack4
+    400036: HairCenter1
+    400038: HairCenter2
+    400040: HairLeft1_1
+    400042: HairLeft1_2
+    400044: HairLeft2_1
+    400046: HairLeft2_2
+    400048: HairLeft2_3
+    400050: HairLeft2_4
+    400052: HairLeft3_1
+    400054: HairLeft3_2
+    400056: HairLeft3_3
+    400058: HairLeft4_1
+    400060: HairLeft4_2
+    400062: HairLeft4_3
+    400064: HairLeft4_4
+    400066: HairRight1_1
+    400068: HairRight1_2
+    400070: HairRight2_1
+    400072: HairRight2_2
+    400074: HairRight2_3
+    400076: HairRight2_4
+    400078: HairRight3_1
+    400080: HairRight3_2
+    400082: HairRight3_3
+    400084: HairRight3_4
+    400086: joint2
+    400088: joint3
+    400090: LeftChest
+    400092: LeftElbow
+    400094: LeftFinger1_1
+    400096: LeftFinger1_2
+    400098: LeftFinger1_3
+    400100: LeftFinger2_1
+    400102: LeftFinger2_2
+    400104: LeftFinger2_3
+    400106: LeftFinger2_4
+    400108: LeftFinger3_1
+    400110: LeftFinger3_2
+    400112: LeftFinger3_3
+    400114: LeftFinger3_4
+    400116: LeftFinger4_1
+    400118: LeftFinger4_2
+    400120: LeftFinger4_3
+    400122: LeftFinger4_4
+    400124: LeftFinger5_1
+    400126: LeftFinger5_2
+    400128: LeftFinger5_3
+    400130: LeftFinger5_4
+    400132: LeftFoot
+    400134: LeftHand
+    400136: LeftHip
+    400138: LeftKnee
+    400140: LeftScarf1
+    400142: LeftScarf2
+    400144: LeftScarf3
+    400146: LeftScarf4
+    400148: LeftShoulder
+    400150: LeftToe
+    400152: LeftToe 1
+    400154: LeftToe3
+    400156: Neck
+    400158: polySurface1
+    400160: polySurface1 1
+    400162: polySurface10
+    400164: polySurface100
+    400166: polySurface101
+    400168: polySurface102
+    400170: polySurface103
+    400172: polySurface104
+    400174: polySurface105
+    400176: polySurface106
+    400178: polySurface107
+    400180: polySurface108
+    400182: polySurface109
+    400184: polySurface11
+    400186: polySurface110
+    400188: polySurface111
+    400190: polySurface112
+    400192: polySurface113
+    400194: polySurface114
+    400196: polySurface115
+    400198: polySurface116
+    400200: polySurface117
+    400202: polySurface118
+    400204: polySurface119
+    400206: polySurface12
+    400208: polySurface120
+    400210: polySurface121
+    400212: polySurface122
+    400214: polySurface123
+    400216: polySurface124
+    400218: polySurface125
+    400220: polySurface126
+    400222: polySurface127
+    400224: polySurface128
+    400226: polySurface129
+    400228: polySurface13
+    400230: polySurface130
+    400232: polySurface131
+    400234: polySurface132
+    400236: polySurface133
+    400238: polySurface134
+    400240: polySurface135
+    400242: polySurface136
+    400244: polySurface137
+    400246: polySurface138
+    400248: polySurface139
+    400250: polySurface14
+    400252: polySurface140
+    400254: polySurface141
+    400256: polySurface142
+    400258: polySurface143
+    400260: polySurface144
+    400262: polySurface145
+    400264: polySurface146
+    400266: polySurface147
+    400268: polySurface148
+    400270: polySurface149
+    400272: polySurface15
+    400274: polySurface150
+    400276: polySurface151
+    400278: polySurface152
+    400280: polySurface153
+    400282: polySurface154
+    400284: polySurface155
+    400286: polySurface156
+    400288: polySurface157
+    400290: polySurface158
+    400292: polySurface159
+    400294: polySurface16
+    400296: polySurface160
+    400298: polySurface161
+    400300: polySurface162
+    400302: polySurface163
+    400304: polySurface164
+    400306: polySurface165
+    400308: polySurface166
+    400310: polySurface167
+    400312: polySurface168
+    400314: polySurface169
+    400316: polySurface17
+    400318: polySurface170
+    400320: polySurface170 1
+    400322: polySurface171
+    400324: polySurface172
+    400326: polySurface173
+    400328: polySurface174
+    400330: polySurface175
+    400332: polySurface176
+    400334: polySurface177
+    400336: polySurface178
+    400338: polySurface179
+    400340: polySurface18
+    400342: polySurface180
+    400344: polySurface181
+    400346: polySurface182
+    400348: polySurface183
+    400350: polySurface184
+    400352: polySurface185
+    400354: polySurface186
+    400356: polySurface187
+    400358: polySurface188
+    400360: polySurface189
+    400362: polySurface19
+    400364: polySurface190
+    400366: polySurface191
+    400368: polySurface192
+    400370: polySurface193
+    400372: polySurface194
+    400374: polySurface195
+    400376: polySurface196
+    400378: polySurface197
+    400380: polySurface198
+    400382: polySurface199
+    400384: polySurface2
+    400386: polySurface20
+    400388: polySurface200
+    400390: polySurface201
+    400392: polySurface202
+    400394: polySurface203
+    400396: polySurface204
+    400398: polySurface205
+    400400: polySurface206
+    400402: polySurface207
+    400404: polySurface208
+    400406: polySurface209
+    400408: polySurface21
+    400410: polySurface210
+    400412: polySurface211
+    400414: polySurface212
+    400416: polySurface213
+    400418: polySurface214
+    400420: polySurface215
+    400422: polySurface216
+    400424: polySurface217
+    400426: polySurface218
+    400428: polySurface219
+    400430: polySurface22
+    400432: polySurface220
+    400434: polySurface221
+    400436: polySurface222
+    400438: polySurface223
+    400440: polySurface224
+    400442: polySurface225
+    400444: polySurface226
+    400446: polySurface227
+    400448: polySurface228
+    400450: polySurface229
+    400452: polySurface23
+    400454: polySurface230
+    400456: polySurface230 1
+    400458: polySurface231
+    400460: polySurface232
+    400462: polySurface233
+    400464: polySurface234
+    400466: polySurface235
+    400468: polySurface236
+    400470: polySurface237
+    400472: polySurface238
+    400474: polySurface24
+    400476: polySurface25
+    400478: polySurface26
+    400480: polySurface27
+    400482: polySurface28
+    400484: polySurface29
+    400486: polySurface3
+    400488: polySurface30
+    400490: polySurface31
+    400492: polySurface32
+    400494: polySurface33
+    400496: polySurface34
+    400498: polySurface35
+    400500: polySurface36
+    400502: polySurface37
+    400504: polySurface38
+    400506: polySurface39
+    400508: polySurface4
+    400510: polySurface40
+    400512: polySurface41
+    400514: polySurface42
+    400516: polySurface43
+    400518: polySurface44
+    400520: polySurface45
+    400522: polySurface46
+    400524: polySurface47
+    400526: polySurface48
+    400528: polySurface49
+    400530: polySurface5
+    400532: polySurface50
+    400534: polySurface51
+    400536: polySurface52
+    400538: polySurface53
+    400540: polySurface54
+    400542: polySurface55
+    400544: polySurface56
+    400546: polySurface57
+    400548: polySurface58
+    400550: polySurface59
+    400552: polySurface6
+    400554: polySurface60
+    400556: polySurface61
+    400558: polySurface62
+    400560: polySurface63
+    400562: polySurface64
+    400564: polySurface65
+    400566: polySurface66
+    400568: polySurface67
+    400570: polySurface68
+    400572: polySurface69
+    400574: polySurface7
+    400576: polySurface70
+    400578: polySurface71
+    400580: polySurface72
+    400582: polySurface73
+    400584: polySurface74
+    400586: polySurface75
+    400588: polySurface76
+    400590: polySurface77
+    400592: polySurface78
+    400594: polySurface79
+    400596: polySurface8
+    400598: polySurface80
+    400600: polySurface81
+    400602: polySurface82
+    400604: polySurface83
+    400606: polySurface84
+    400608: polySurface85
+    400610: polySurface86
+    400612: polySurface87
+    400614: polySurface88
+    400616: polySurface89
+    400618: polySurface9
+    400620: polySurface90
+    400622: polySurface91
+    400624: polySurface92
+    400626: polySurface93
+    400628: polySurface94
+    400630: polySurface95
+    400632: polySurface96
+    400634: polySurface97
+    400636: polySurface98
+    400638: polySurface99
+    400640: pPipe2
+    400642: RightChest
+    400644: RightElbow
+    400646: RightFinger1_1
+    400648: RightFinger1_2
+    400650: RightFinger1_3
+    400652: RightFinger2_1
+    400654: RightFinger2_2
+    400656: RightFinger2_3
+    400658: RightFinger2_4
+    400660: RightFinger3_1
+    400662: RightFinger3_2
+    400664: RightFinger3_3
+    400666: RightFinger3_4
+    400668: RightFinger4_1
+    400670: RightFinger4_2
+    400672: RightFinger4_3
+    400674: RightFinger4_4
+    400676: RightFinger5_1
+    400678: RightFinger5_2
+    400680: RightFinger5_3
+    400682: RightFinger5_4
+    400684: RightFoot
+    400686: RightHand
+    400688: RightHip
+    400690: RightKnee
+    400692: RightScarf1
+    400694: RightScarf2
+    400696: RightScarf3
+    400698: RightScarf3 1
+    400700: RightShoulder
+    400702: RightToe
+    400704: RightToe 1
+    400706: RightToe1
+    400708: Root
+    400710: Scarf
+    400712: Spine1
+    400714: Spine2
+    400716: Spine3
+    400718: transform1
+    400720: transform10
+    400722: transform100
+    400724: transform101
+    400726: transform102
+    400728: transform103
+    400730: transform104
+    400732: transform105
+    400734: transform106
+    400736: transform107
+    400738: transform108
+    400740: transform109
+    400742: transform11
+    400744: transform110
+    400746: transform111
+    400748: transform112
+    400750: transform113
+    400752: transform114
+    400754: transform115
+    400756: transform116
+    400758: transform117
+    400760: transform118
+    400762: transform119
+    400764: transform12
+    400766: transform120
+    400768: transform121
+    400770: transform122
+    400772: transform123
+    400774: transform124
+    400776: transform125
+    400778: transform126
+    400780: transform127
+    400782: transform128
+    400784: transform129
+    400786: transform13
+    400788: transform130
+    400790: transform131
+    400792: transform132
+    400794: transform133
+    400796: transform134
+    400798: transform135
+    400800: transform136
+    400802: transform137
+    400804: transform138
+    400806: transform139
+    400808: transform14
+    400810: transform140
+    400812: transform141
+    400814: transform142
+    400816: transform143
+    400818: transform144
+    400820: transform145
+    400822: transform146
+    400824: transform147
+    400826: transform148
+    400828: transform149
+    400830: transform15
+    400832: transform150
+    400834: transform151
+    400836: transform152
+    400838: transform153
+    400840: transform154
+    400842: transform155
+    400844: transform156
+    400846: transform157
+    400848: transform158
+    400850: transform159
+    400852: transform16
+    400854: transform160
+    400856: transform161
+    400858: transform162
+    400860: transform163
+    400862: transform164
+    400864: transform165
+    400866: transform166
+    400868: transform167
+    400870: transform168
+    400872: transform169
+    400874: transform17
+    400876: transform170
+    400878: transform171
+    400880: transform172
+    400882: transform173
+    400884: transform174
+    400886: transform175
+    400888: transform176
+    400890: transform177
+    400892: transform178
+    400894: transform179
+    400896: transform18
+    400898: transform180
+    400900: transform181
+    400902: transform182
+    400904: transform183
+    400906: transform184
+    400908: transform185
+    400910: transform186
+    400912: transform187
+    400914: transform188
+    400916: transform189
+    400918: transform19
+    400920: transform190
+    400922: transform191
+    400924: transform192
+    400926: transform193
+    400928: transform194
+    400930: transform195
+    400932: transform196
+    400934: transform197
+    400936: transform198
+    400938: transform199
+    400940: transform2
+    400942: transform20
+    400944: transform200
+    400946: transform201
+    400948: transform202
+    400950: transform203
+    400952: transform204
+    400954: transform205
+    400956: transform206
+    400958: transform207
+    400960: transform208
+    400962: transform209
+    400964: transform21
+    400966: transform210
+    400968: transform211
+    400970: transform212
+    400972: transform213
+    400974: transform214
+    400976: transform215
+    400978: transform216
+    400980: transform217
+    400982: transform218
+    400984: transform219
+    400986: transform22
+    400988: transform220
+    400990: transform221
+    400992: transform222
+    400994: transform223
+    400996: transform224
+    400998: transform225
+    401000: transform226
+    401002: transform227
+    401004: transform228
+    401006: transform229
+    401008: transform23
+    401010: transform230
+    401012: transform231
+    401014: transform232
+    401016: transform233
+    401018: transform234
+    401020: transform235
+    401022: transform236
+    401024: transform237
+    401026: transform238
+    401028: transform239
+    401030: transform24
+    401032: transform240
+    401034: transform241
+    401036: transform25
+    401038: transform26
+    401040: transform27
+    401042: transform28
+    401044: transform29
+    401046: transform3
+    401048: transform30
+    401050: transform31
+    401052: transform32
+    401054: transform33
+    401056: transform34
+    401058: transform35
+    401060: transform36
+    401062: transform37
+    401064: transform38
+    401066: transform39
+    401068: transform4
+    401070: transform40
+    401072: transform41
+    401074: transform42
+    401076: transform43
+    401078: transform44
+    401080: transform45
+    401082: transform46
+    401084: transform47
+    401086: transform48
+    401088: transform49
+    401090: transform5
+    401092: transform50
+    401094: transform51
+    401096: transform52
+    401098: transform53
+    401100: transform54
+    401102: transform55
+    401104: transform56
+    401106: transform57
+    401108: transform58
+    401110: transform59
+    401112: transform6
+    401114: transform60
+    401116: transform61
+    401118: transform62
+    401120: transform63
+    401122: transform64
+    401124: transform65
+    401126: transform66
+    401128: transform67
+    401130: transform68
+    401132: transform69
+    401134: transform7
+    401136: transform70
+    401138: transform71
+    401140: transform72
+    401142: transform73
+    401144: transform74
+    401146: transform75
+    401148: transform76
+    401150: transform77
+    401152: transform78
+    401154: transform79
+    401156: transform8
+    401158: transform80
+    401160: transform81
+    401162: transform82
+    401164: transform83
+    401166: transform84
+    401168: transform85
+    401170: transform86
+    401172: transform87
+    401174: transform88
+    401176: transform89
+    401178: transform9
+    401180: transform90
+    401182: transform91
+    401184: transform92
+    401186: transform93
+    401188: transform94
+    401190: transform95
+    401192: transform96
+    401194: transform97
+    401196: transform98
+    401198: transform99
+    401200: //RootNode
+    4300000: polySurface225
+    4300002: polySurface238
+    4300004: polySurface230
+    7400000: ali_idle
+    9500000: //RootNode
+    13700000: polySurface225
+    13700002: polySurface230
+    13700004: polySurface238
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ali_idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hair
+        weight: 1
+      - path: hair/transform154
+        weight: 1
+      - path: hair1
+        weight: 1
+      - path: hair1/transform227
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/polySurface225
+        weight: 1
+      - path: polySurface1/polySurface226
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface227
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface227/transform238
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface228
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface228/transform239
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface229
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface229/transform240
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface230 1
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface230 1/transform241
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface231
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface231/transform235
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface232
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface232/transform237
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface233
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface233/transform233
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface234
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface234/transform236
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface235
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface235/transform232
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface236
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface236/transform234
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface237
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface237/transform231
+        weight: 1
+      - path: polySurface1/polySurface226/polySurface238
+        weight: 1
+      - path: polySurface1/polySurface226/transform230
+        weight: 1
+      - path: polySurface1/transform229
+        weight: 1
+      - path: polySurface170
+        weight: 1
+      - path: polySurface170/transform226
+        weight: 1
+      - path: polySurface230
+        weight: 1
+      - path: pPipe2
+        weight: 1
+      - path: pPipe2/polySurface1 1
+        weight: 1
+      - path: pPipe2/polySurface1 1/transform228
+        weight: 1
+      - path: pPipe2/polySurface2
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface3
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface3/transform155
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface4
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface4/transform156
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface5
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface5/transform157
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface6
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface6/transform158
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface7
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface7/transform159
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface8
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface8/transform14
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface9
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface9/transform15
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface10
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface10/transform3
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface11
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface11/transform4
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface12
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface12/transform5
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface13
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface13/transform6
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface14
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface14/transform7
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface15
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface15/transform8
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface16
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface16/transform9
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface17
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface17/transform10
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface18
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface18/transform11
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface19
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface19/transform12
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface20
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface20/transform13
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface21
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface21/transform138
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface22
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface22/transform139
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface23
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface23/transform140
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface24
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface24/transform141
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface25
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface25/transform142
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface26
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface26/transform143
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface27
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface27/transform144
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface28
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface28/transform145
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface29
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface29/transform146
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface30
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface30/transform147
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface31
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface31/transform148
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface32
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface32/transform149
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface33
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface33/transform150
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface34
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface34/transform126
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface35
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface35/transform127
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface36
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface36/transform128
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface37
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface37/transform129
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface38
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface38/transform130
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface39
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface39/transform131
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface40
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface40/transform132
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface41
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface41/transform133
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface42
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface42/transform134
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface43
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface43/transform135
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface44
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface44/transform136
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface45
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface45/transform137
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface46
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface46/transform113
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface47
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface47/transform114
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface48
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface48/transform115
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface49
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface49/transform116
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface50
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface50/transform117
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface51
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface51/transform118
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface52
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface52/transform119
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface53
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface53/transform120
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface54
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface54/transform121
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface55
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface55/transform122
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface56
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface56/transform123
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface57
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface57/transform124
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface58
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface58/transform125
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface59
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface59/transform101
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface60
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface60/transform102
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface61
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface61/transform103
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface62
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface62/transform104
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface63
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface63/transform105
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface64
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface64/transform106
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface65
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface65/transform107
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface66
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface66/transform108
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface67
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface67/transform109
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface68
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface68/transform110
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface69
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface69/transform111
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface70
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface70/transform112
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface71
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface71/transform88
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface72
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface72/transform89
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface73
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface73/transform90
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface74
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface74/transform91
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface75
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface75/transform92
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface76
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface76/transform93
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface77
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface77/transform94
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface78
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface78/transform95
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface79
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface79/transform96
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface80
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface80/transform97
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface81
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface81/transform98
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface82
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface82/transform99
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface83
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface83/transform100
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface84
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface84/transform76
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface85
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface85/transform77
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface86
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface86/transform78
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface87
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface87/transform79
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface88
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface88/transform80
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface89
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface89/transform81
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface90
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface90/transform82
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface91
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface91/transform83
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface92
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface92/transform84
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface93
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface93/transform85
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface94
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface94/transform86
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface95
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface95/transform87
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface96
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface96/transform63
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface97
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface97/transform64
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface98
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface98/transform65
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface99
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface99/transform66
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface100
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface100/transform67
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface101
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface101/transform68
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface102
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface102/transform69
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface103
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface103/transform70
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface104
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface104/transform71
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface105
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface105/transform72
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface106
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface106/transform73
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface107
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface107/transform74
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface108
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface108/transform75
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface109
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface109/transform54
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface110
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface110/transform55
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface111
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface111/transform56
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface112
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface112/transform57
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface113
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface113/transform58
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface114
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface114/transform59
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface115
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface115/transform151
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface116
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface116/transform152
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface117
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface117/transform153
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface118
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface118/transform60
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface119
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface119/transform61
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface120
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface120/transform62
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface121
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface121/transform41
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface122
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface122/transform42
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface123
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface123/transform43
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface124
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface124/transform44
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface125
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface125/transform45
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface126
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface126/transform46
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface127
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface127/transform47
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface128
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface128/transform48
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface129
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface129/transform49
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface130
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface130/transform50
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface131
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface131/transform51
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface132
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface132/transform52
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface133
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface133/transform53
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface134
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface134/transform29
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface135
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface135/transform30
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface136
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface136/transform31
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface137
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface137/transform32
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface138
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface138/transform33
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface139
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface139/transform34
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface140
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface140/transform35
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface141
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface141/transform36
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface142
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface142/transform37
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface143
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface143/transform38
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface144
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface144/transform39
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface145
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface145/transform40
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface146
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface146/transform16
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface147
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface147/transform17
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface148
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface148/transform18
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface149
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface149/transform19
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface150
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface150/transform20
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface151
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface151/transform21
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface152
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface152/transform22
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface153
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface153/transform23
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface154
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface154/transform24
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface155
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface155/transform25
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface156
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface156/transform26
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface157
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface157/transform27
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface158
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface158/transform28
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface159
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface159/transform214
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface160
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface160/transform215
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface161
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface161/transform216
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface162
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface162/transform217
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface163
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface163/transform218
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface164
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface164/transform219
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface165
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface165/transform220
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface166
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface166/transform221
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface167
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface167/transform222
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface168
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface168/transform223
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface169
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface169/transform224
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface170 1
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface170 1/transform225
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface171
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface171/transform201
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface172
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface172/transform202
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface173
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface173/transform203
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface174
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface174/transform204
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface175
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface175/transform205
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface176
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface176/transform206
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface177
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface177/transform207
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface178
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface178/transform208
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface179
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface179/transform209
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface180
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface180/transform210
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface181
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface181/transform211
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface182
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface182/transform212
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface183
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface183/transform213
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface184
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface184/transform189
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface185
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface185/transform190
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface186
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface186/transform191
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface187
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface187/transform192
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface188
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface188/transform193
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface189
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface189/transform194
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface190
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface190/transform195
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface191
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface191/transform196
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface192
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface192/transform197
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface193
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface193/transform198
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface194
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface194/transform199
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface195
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface195/transform200
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface196
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface196/transform176
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface197
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface197/transform177
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface198
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface198/transform178
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface199
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface199/transform179
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface200
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface200/transform180
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface201
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface201/transform181
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface202
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface202/transform182
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface203
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface203/transform183
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface204
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface204/transform184
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface205
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface205/transform185
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface206
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface206/transform186
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface207
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface207/transform187
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface208
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface208/transform188
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface209
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface209/transform164
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface210
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface210/transform165
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface211
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface211/transform166
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface212
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface212/transform167
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface213
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface213/transform168
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface214
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface214/transform169
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface215
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface215/transform170
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface216
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface216/transform171
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface217
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface217/transform172
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface218
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface218/transform173
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface219
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface219/transform174
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface220
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface220/transform175
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface221
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface221/transform160
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface222
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface222/transform161
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface223
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface223/transform162
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface224
+        weight: 1
+      - path: pPipe2/polySurface2/polySurface224/transform163
+        weight: 1
+      - path: pPipe2/polySurface2/transform2
+        weight: 1
+      - path: pPipe2/transform1
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/LeftHip
+        weight: 1
+      - path: Root/LeftHip/LeftKnee
+        weight: 1
+      - path: Root/LeftHip/LeftKnee/LeftFoot
+        weight: 1
+      - path: Root/LeftHip/LeftKnee/LeftFoot/LeftToe
+        weight: 1
+      - path: Root/LeftHip/LeftKnee/LeftFoot/LeftToe3
+        weight: 1
+      - path: Root/LeftHip/LeftKnee/LeftFoot/LeftToe3/LeftToe 1
+        weight: 1
+      - path: Root/RightHip
+        weight: 1
+      - path: Root/RightHip/RightKnee
+        weight: 1
+      - path: Root/RightHip/RightKnee/RightFoot
+        weight: 1
+      - path: Root/RightHip/RightKnee/RightFoot/RightToe
+        weight: 1
+      - path: Root/RightHip/RightKnee/RightFoot/RightToe1
+        weight: 1
+      - path: Root/RightHip/RightKnee/RightFoot/RightToe1/RightToe 1
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftChest
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve5
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve6
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve7
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve8
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/curve11
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairBack1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairBack1/HairBack2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairBack1/HairBack2/HairBack3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairBack1/HairBack2/HairBack3/HairBack4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairCenter1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairCenter1/HairCenter2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft1_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft1_1/HairLeft1_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft2_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft2_1/HairLeft2_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft2_1/HairLeft2_2/HairLeft2_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft2_1/HairLeft2_2/HairLeft2_3/HairLeft2_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft3_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft3_1/HairLeft3_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft3_1/HairLeft3_2/HairLeft3_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft4_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft4_1/HairLeft4_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft4_1/HairLeft4_2/HairLeft4_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairLeft4_1/HairLeft4_2/HairLeft4_3/HairLeft4_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight1_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight1_1/HairRight1_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight2_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight2_1/HairRight2_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight2_1/HairRight2_2/HairRight2_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight2_1/HairRight2_2/HairRight2_3/HairRight2_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight3_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight3_1/HairRight3_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight3_1/HairRight3_2/HairRight3_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/joint2/Hair/HairRight3_1/HairRight3_2/HairRight3_3/HairRight3_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger1_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger1_1/LeftFinger1_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger1_1/LeftFinger1_2/LeftFinger1_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger2_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger2_1/LeftFinger2_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger2_1/LeftFinger2_2/LeftFinger2_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger2_1/LeftFinger2_2/LeftFinger2_3/LeftFinger2_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger3_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger3_1/LeftFinger3_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger3_1/LeftFinger3_2/LeftFinger3_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger3_1/LeftFinger3_2/LeftFinger3_3/LeftFinger3_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger4_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger4_1/LeftFinger4_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger4_1/LeftFinger4_2/LeftFinger4_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger4_1/LeftFinger4_2/LeftFinger4_3/LeftFinger4_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger5_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger5_1/LeftFinger5_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger5_1/LeftFinger5_2/LeftFinger5_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/LeftShoulder/LeftElbow/LeftHand/LeftFinger5_1/LeftFinger5_2/LeftFinger5_3/LeftFinger5_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/joint3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger1_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger1_1/RightFinger1_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger1_1/RightFinger1_2/RightFinger1_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger2_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger2_1/RightFinger2_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger2_1/RightFinger2_2/RightFinger2_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger2_1/RightFinger2_2/RightFinger2_3/RightFinger2_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger3_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger3_1/RightFinger3_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger3_1/RightFinger3_2/RightFinger3_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger3_1/RightFinger3_2/RightFinger3_3/RightFinger3_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger4_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger4_1/RightFinger4_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger4_1/RightFinger4_2/RightFinger4_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger4_1/RightFinger4_2/RightFinger4_3/RightFinger4_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger5_1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger5_1/RightFinger5_2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger5_1/RightFinger5_2/RightFinger5_3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/RightShoulder/RightElbow/RightHand/RightFinger5_1/RightFinger5_2/RightFinger5_3/RightFinger5_4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/curve9
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/curve10
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/LeftScarf1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/LeftScarf1/LeftScarf2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/LeftScarf1/LeftScarf2/LeftScarf3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/LeftScarf1/LeftScarf2/LeftScarf3/LeftScarf4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/RightScarf1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/RightScarf1/RightScarf2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/RightScarf1/RightScarf2/RightScarf3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Scarf/RightScarf1/RightScarf2/RightScarf3/RightScarf3
+          1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightChest
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
